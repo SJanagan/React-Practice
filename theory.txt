@@ -1,0 +1,65 @@
+1. what is Emmet?
+
+-Emmet is a built-in feature in editors like VS code that allows you to write Html and Css
+much faster using short abbreviations.
+
+-Instead of manually writing a large amount of HTML, you write a short abbreviation and
+Emmet expands it into complete code
+
+
+2. Difference Between a Library and Framework
+
+A library is something our application calls when it needs functionality, whereas a framework
+provides the overall structure and controls the application flow. React     is primarily a UI library, while Angular 
+and Next.js are frameworks.
+
+Library : A library provides functionality that you call when you need it.
+
+You are in control of your application.
+
+For example, React is generally described as a JavaScript library for building user interfaces.
+
+Framework : A framework provides a larger structure for building an application.
+
+The framework usually determines how your application should be structured and when certain code runs.
+
+Examples include:
+
+Angular
+Spring Boot
+Django
+Laravel
+
+
+3. What is CDN? Why do we use it?
+
+CDN means:
+
+Content Delivery Network
+
+A CDN is a network of servers distributed across different geographical locations that delivers files to
+ users from a server closer to them.
+
+Why use CDN?
+1. Faster delivery
+
+Users can receive resources from geographically closer servers.
+
+2. Caching
+
+Browsers/CDN infrastructure can cache commonly requested resources, reducing repeated downloads.
+
+3. Reduced server load
+
+Your own server doesn't necessarily have to deliver every static resource.
+
+4. Easy integration
+
+For simple experiments, you can include a library using:
+
+<script src="..."></script>
+
+4. Why is React known as "React"?
+
+React is called React because the UI reacts to changes in application state or data and updates 
+the necessary parts of the interface.
