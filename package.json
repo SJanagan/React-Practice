@@ -1,0 +1,28 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is a practice",
+
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SJanagan/React-Practice.git"
+  },
+  "author": "Janagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SJanagan/React-Practice/issues"
+  },
+  "homepage": "https://github.com/SJanagan/React-Practice#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
